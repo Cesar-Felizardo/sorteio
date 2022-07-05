@@ -1,0 +1,63 @@
+
+* {
+    margin: auto;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+main {
+    text-align: center;
+    padding: 40px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-go {
+    width: 220px;
+    height: 80px;
+    background: rgb(132, 225, 228);
+    border-radius: 3px;
+    margin-top: 100px !important;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.331);
+    margin: 40px;
+}
+
+.btn-go:hover {
+    background: rgb(120, 201, 203);
+    color: white;
+}
+
+header {
+
+}
+
+.body-sort {
+    width: 800px;
+    margin-top: 50px;
+    text-align: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.body-sort #number-result {
+    margin-top: -50px;
+    color: blue;
+    background: blueviolet;
+}
+
+.body-sort h3 {
+    margin-top: 70px;
+}
+
+.body-sort #span-result {
+    margin-left: 5px;
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
