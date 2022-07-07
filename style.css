@@ -7,7 +7,8 @@
 }
 
 body {
-    margin: 70px;
+    padding: 40px;
+
     flex-direction: row;
 }
 
@@ -57,7 +58,6 @@ header {
 .body-sort {
     width: 100%;
     margin-top: 50px;
-    text-align: left;
     flex-direction: column;
     padding: 10px;
 }
@@ -83,13 +83,23 @@ header {
 
 @media screen and (max-width: 700px) {
 
+    main {
+        width: 100%;
+        background: white;
+        border: 1px solid #000;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+    }
+
     .containerH1 h1{
         font-size: 20px;
     }
 
     .btn-go {
-        width: 180px;
-        height: 60px;
+        width: 80%;
+        height: auto;
+        padding: 40px;
         font-size: 12px;
     }
 
@@ -97,7 +107,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 20px;
+        /* margin: 20px; */
         width: auto;
     }
 
@@ -107,6 +117,6 @@ header {
     
     .body-sort h3 {
         font-size: 14px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
