@@ -2,81 +2,103 @@
 function sorteio(name, number) {
     const pessoa1 = {
         nome: 'Lucineide felizardo',
-        número: 126
+        numero: 126
     }
     
     const pessoa2 = {
         nome: 'Barbara',
-        número: 23
+        numero: 23
     }
     
     const pessoa3 = {
         nome: 'Barbara',
-        número: 04
+        numero: 04
     }
     
     const pessoa4 = {
         nome: 'Barbara',
-        número: 28
+        numero: 28
     }
     
     const pessoa5 = {
         nome: 'Barbara',
-        número: 14
+        numero: 14
     }
     
     const pessoa6 = {
         nome: 'Barbara',
-        número: 29
+        numero: 29
     }
     
     const pessoa7 = {
         nome: 'Thalles',
-        número: 8
+        numero: 8
     }
     
     const pessoa8 = {
         nome: 'Thalles',
-        número: 17
+        numero: 17
     }
     
     const pessoa9 = {
         nome: 'Luana',
-        número: 30
+        numero: 30
     }
     
     const pessoa10 = {
         nome: 'Judivan',
-        número: 13
+        numero: 13
     }
     
     const pessoa11 = {
         nome: 'Isac',
-        número: 33
+        numero: 33
     }
     
     const pessoa12 = {
         nome: 'Isal',
-        número: 05
+        numero: 05
     }
     
     const pessoa13 = {
         nome: 'Debora',
-        número: 74
+        numero: 74
     }
     
     const pessoa14 = {
         nome: 'Luan',
-        número: 51
+        numero: 51
     }
     const pessoa15 = {
         nome: 'Milton',
-        número: 101
+        numero: 101
     }
     
     const pessoa16 = {
         nome: 'Vanessa',
-        número: 78
+        numero: 78
     }
+
+    const pessoa17 = {
+        nome: 'Karoline',
+        numero: 12
+    }
+
+    const pessoa18 = {
+        nome: 'Simone Brito',
+        numero: 135 
+    }
+
+    const pessoa19= {
+        nome: 'Miguel',
+        numero: 77
+    }
+
+    const pessoa20= {
+        nome: 'Michael',
+        numero: 7
+    }
+
+    alert(pessoa20.nome)
 }
 
