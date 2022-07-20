@@ -9,15 +9,21 @@
     <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
+    
+    <header>
+        <div class="containerH1"><h1>SORTEIO CHÁ RIFA DO THIAGO</h1></div>
+    </header>
+
+    <span id="contRegress"></span>
+    
     <main>
-        <header>
-            <div class="containerH1"><h1>SORTEIO CHÁ RIFA DO THIAGO</h1></div>
-            <button class="btn-go" onclick="sorteio()">INICIAR O SORTEIO</button>
-        </header>
-        <div class="body-sort">
-            <h2>NÚMERO SORTEADO:<span id="number-result"></span></h2>
-            <h3>PARABÉNS:<span id="name-result"></span></h3>
-        </div>
+        <div id="div"></div>
     </main>
+    <div class="containerBtn">
+        <button class="btn-go" onclick="sorteio()">INICIAR O SORTEIO</button>
+        <button class="btn-Qtd" onclick="All_Names()">TOTAL DE PARTICIPANTES</button>
+        <button class="btn-clean" onclick="btnClean()">LIMPAR / PARAR</button>
+        <button class="btn-save" onclick="print()">SAVAR PRINT</button>
+    </div>
 </body>
 </html>
