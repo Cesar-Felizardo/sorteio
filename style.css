@@ -208,19 +208,74 @@ section {
     text-transform: uppercase;
 }
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
 
     main {
         
     }
 
     .containerBtn {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .btn-go,
+    .btn-Qtd {
+        flex: 1 0 0;
+        margin: 4px; 
+        font-size: 12px !important;
+    }
+
+    .btn-clean,
+    .btn-save {
+        flex: 1 0 0;
+        margin: 4px; 
+        font-size: 12px !important;
+    }
+
+
+    .containerH1 h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .btn-go, .btn-Qtd {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    main {
         
     }
 
+    .containerBtn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .btn-go,
+    .btn-Qtd
+     {
+         flex: 1 0 0;
+        margin: 4px; 
+        font-size: 12px !important;
+    }
+
+    .btn-clean,
+    .btn-save {
+        flex: 1 0 0;
+        margin: 4px; 
+        font-size: 12px !important;
+    }
+
+
     .containerH1 h1{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
     }
 
