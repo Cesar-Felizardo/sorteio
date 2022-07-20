@@ -1,104 +1,180 @@
 
-function sorteio(name, number) {
-    const pessoa1 = {
-        nome: 'Lucineide felizardo',
-        numero: 126
-    }
-    
-    const pessoa2 = {
-        nome: 'Barbara',
-        numero: 23
-    }
-    
-    const pessoa3 = {
-        nome: 'Barbara',
-        numero: 04
-    }
-    
-    const pessoa4 = {
-        nome: 'Barbara',
-        numero: 28
-    }
-    
-    const pessoa5 = {
-        nome: 'Barbara',
-        numero: 14
-    }
-    
-    const pessoa6 = {
-        nome: 'Barbara',
-        numero: 29
-    }
-    
-    const pessoa7 = {
-        nome: 'Thalles',
-        numero: 8
-    }
-    
-    const pessoa8 = {
-        nome: 'Thalles',
-        numero: 17
-    }
-    
-    const pessoa9 = {
-        nome: 'Luana',
-        numero: 30
-    }
-    
-    const pessoa10 = {
-        nome: 'Judivan',
-        numero: 13
-    }
-    
-    const pessoa11 = {
-        nome: 'Isac',
-        numero: 33
-    }
-    
-    const pessoa12 = {
-        nome: 'Isal',
-        numero: 05
-    }
-    
-    const pessoa13 = {
-        nome: 'Debora',
-        numero: 74
-    }
-    
-    const pessoa14 = {
-        nome: 'Luan',
-        numero: 51
-    }
-    const pessoa15 = {
-        nome: 'Milton',
-        numero: 101
-    }
-    
-    const pessoa16 = {
-        nome: 'Vanessa',
-        numero: 78
-    }
+let array_names = [
 
-    const pessoa17 = {
-        nome: 'Karoline',
-        numero: 12
-    }
+    `Nome: Lucineide Felizardo (126)`,
 
-    const pessoa18 = {
-        nome: 'Simone Brito',
-        numero: 135 
-    }
+    `Nome: Barbara (23)`, 
+    
+    `Nome: Barbara (04)`,
+    
+    `Nome: Barbara (28)`,
+    
+    `Nome: Barbara (14)`,
 
-    const pessoa19= {
-        nome: 'Miguel',
-        numero: 77
-    }
+    `Nome: Barbara (29)`,
 
-    const pessoa20= {
-        nome: 'Michael',
-        numero: 7
-    }
+    `Nome: Thalles (08)`,
+    
+    `Nome: Thalles, (17)`,
 
-    alert(pessoa20.nome)
+    `Nome: Luana(30)`,
+
+    `Nome: Judivan(13)`,
+
+    `Nome: Isac (33)`,
+
+    `Nome: Isal (05)`,
+
+    `Nome: Debora (74)`,
+
+    `Nome: Luan (51)`,
+
+    `Nome: Milton 101)`,
+
+    `Nome: Vanessa (78)`,
+
+    `Nome: Karoline(12)`,
+
+    `Nome: Simone Brito (135)`,
+
+    `Nome: Miguel (77)`,
+
+    `Nome: Michael (07)`,
+
+    `Nome: Eliton (55)`,
+
+    `PREMIADO: (98)`,
+
+    `Paty (27)`,
+    
+    `Patrícia Docol (11)`,
+    `
+    Jadeilson (22)`,
+    
+    `Kaio (37)`,
+    
+    `Altair (Zezé) (179)`, 
+    
+    `Valéria (20)`,
+
+    `Luciano (06)`,
+
+    `Isadora (26)`,
+
+    `Jhonatan (32)`,
+
+    `Dikó (63)`,
+
+    `Eduardo (48)`,
+
+    `Daiane (177)`
+    ]
+
+    let now = new Date
+    let month = now.getMonth()
+    let day = now.getDay()+17
+
+    if(day > 31) {
+        month += 1
+        day = 1
+    }
+switch  (month) {
+    case 1-1:
+        month = 'Janeiro'
+        break
+    case 2-1:
+        month = 'Fevereiro'
+        break
+    case 3-1:
+        month = 'Março'
+        break
+    case 4-1:
+        month = 'Abril'
+        break
+    case 5-1:
+        month = 'Maio'
+        break
+    case 6-1:
+        month = 'Junho'
+        break
+    case 7-1:
+        month = 'Julho'
+        break
+    case 8-1:
+        month = 'Agosto'
+        break
+    case 9-1:
+        month = 'Setembro'
+        break
+    case 10-1:
+        month = 'Outubro'
+        break
+    case 11-1:
+        month = 'Novembro'
+        break
+    case 12-1:
+        month = 'Dezembro'
+        break
 }
+document.write(` Data: ${day} de ${month} de ${now.getFullYear()}`)
+
+let time1 = 0
+let time2 = 200
+let time3 = 500
+let time4 = 1000
+
+
+function All_Names() {
+    /* let desable_go = document.querySelector('.btn-go')
+    desable_go.remove() */
+
+    let divQtd = document.getElementById('div')
+    divQtd.classList.add('div')
+    divQtd.innerText = `NUMEROS CONCORRENDO: ${array_names.length}`
+}
+
+function btnClean() {
+    let yesNo_clean = confirm('Tem certeza que deseja limpar?')
+    if(yesNo_clean) {
+        location.reload()
+    }
+}
+
+function sorteio() {
+    let btn_go = document.querySelector('.btn-go')
+    let yesNo = confirm('O sorteio será iniciado, ok?')
+    
+    if(yesNo) {
+        let btn_Qtd = document.querySelector('.btn-Qtd')
+        btn_Qtd.remove()
+        btn_go.remove()
+
+        let init = 11  
+        setInterval(function count() {
+        if(init > 0) {
+            init--
+            contRegress.innerHTML = 'Iniciando sorteio em... '+ init
+        } 
+        if(init == 0) {
+            contRegress.innerHTML = ''
+             div.classList.add('div')
+            }
+        },time4)
+
+        for(let i=0; i < array_names.length; i++) {
+            let order = Math.floor(Math.random() * (i + 1))
+            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order]}`
+        }
+    } 
+    else {
+        alert('Cancelando sorteio...')
+    }
+}
+        
+
+
+
+
+
+
 
