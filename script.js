@@ -1,3 +1,16 @@
+window.addEventListener('load', ocutarBotoes)
+function ocutarBotoes(){
+    let btn_go = document.querySelector('.btn-go')
+    let btn_Qtd = document.querySelector('.btn-Qtd')
+    let btn_save = document.querySelector('.btn-save')
+    let btn_clean = document.querySelector('.btn-clean')
+    /* btn_Qtd.remove() */
+    btn_clean.remove()
+    btn_go.remove()
+    btn_save.remove()
+}
+    
+
 
 let array_names = [
 
@@ -79,7 +92,9 @@ let array_names = [
 
     `Alisson (02)`,
 
-    `Rafael (25)`
+    `Rafael (25)`,
+    
+    `Cida (Mariana) (45)`
     ]
 
     let now = new Date
@@ -155,11 +170,15 @@ function sorteio() {
     
     if(yesNo) {
         let btn_Qtd = document.querySelector('.btn-Qtd')
+        const more = document.getElementById('More')
+
+        more.remove()
         btn_Qtd.remove()
         btn_go.remove()
 
         let init = 11  
         setInterval(function count() {
+
         if(init > 0) {
             init--
             contRegress.innerHTML = 'Iniciando sorteio em... '+ init
@@ -180,18 +199,9 @@ function sorteio() {
     }
 }
 
-window.addEventListener('load', ocutarBotoes)
 
-function ocutarBotoes() {
-    let btn_go = document.querySelector('.btn-go')
-    let btn_Qtd = document.querySelector('.btn-Qtd')
-    let btn_save = document.querySelector('.btn-save')
-    let btn_clean = document.querySelector('.btn-clean')
-    /* btn_Qtd.remove() */
-    btn_go.remove()
-    btn_clean.remove()
-    btn_save.remove()
-}
+
+
 
 
         
