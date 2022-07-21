@@ -67,7 +67,19 @@ let array_names = [
 
     `Eduardo (48)`,
 
-    `Daiane (177)`
+    `Daiane (177)`,
+
+    `Cristian (cerâmica) (117)`,
+    
+    `Bruno (35)`,
+
+    `Arthur (16)`,
+
+    `Gilvanildo 94`,
+
+    `Alisson (02)`,
+
+    `Rafael (25)`
     ]
 
     let now = new Date
@@ -125,11 +137,8 @@ let time4 = 1000
 
 
 function All_Names() {
-    /* let desable_go = document.querySelector('.btn-go')
-    desable_go.remove() */
-
     let divQtd = document.getElementById('div')
-    divQtd.classList.add('div')
+    divQtd.classList.toggle('div')
     divQtd.innerText = `NUMEROS CONCORRENDO: ${array_names.length}`
 }
 
@@ -170,6 +179,21 @@ function sorteio() {
         alert('Cancelando sorteio...')
     }
 }
+
+window.addEventListener('load', ocutarBotoes)
+
+function ocutarBotoes() {
+    let btn_go = document.querySelector('.btn-go')
+    let btn_Qtd = document.querySelector('.btn-Qtd')
+    let btn_save = document.querySelector('.btn-save')
+    let btn_clean = document.querySelector('.btn-clean')
+    /* btn_Qtd.remove() */
+    btn_go.remove()
+    btn_clean.remove()
+    btn_save.remove()
+}
+
+
         
 
 
