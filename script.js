@@ -6,10 +6,13 @@ function ocutarBotoes(){
     let btn_clean = document.querySelector('.btn-clean')
     /* btn_Qtd.remove() */
     btn_clean.remove()
-    btn_go.remove()
+    /* btn_go.remove() */
     btn_save.remove()
 }
-    
+setInterval(function efeitoToogle() {
+    let txtYouWin = document.querySelector('.div')
+    txtYouWin.classList.toggle('tranform-scale')
+},400)
 
 
 let array_names = [
@@ -36,7 +39,7 @@ let array_names = [
 
     `Nome: Isac (33)`,
 
-    `Nome: Isal (05)`,
+    `Nome: Isael (05)`,
 
     `Nome: Debora (74)`,
 
@@ -105,14 +108,14 @@ let array_names = [
     `Gleydson (15)`,
 
     `Jean (67)`,
-    
+
     `Wanderlan (44)`,
 
     `Pedro Lucas (151)`,
 
     `Mirek Tales (132)`,
-    
-    `Henrique (43`,
+
+    `Henrique (43)`,
 
     `Alex (Leroy) (71`,
         
