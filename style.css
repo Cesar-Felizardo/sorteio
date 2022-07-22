@@ -11,7 +11,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    background-image: linear-gradient(to bottom, #8ec3ec, transparent);
+    background: white;
     z-index: -1;
     background-repeat: no-repeat;
 }
@@ -19,7 +19,7 @@ body {
 header {
     text-emphasis: center !important;
     margin-bottom: -9px;
-    color: white;
+    color: rgb(43, 173, 169);
     font-size: 26px;
     width: 89vw;
 }
@@ -61,7 +61,7 @@ main {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    background-image: linear-gradient(to bottom, #82b3d8, transparent);
+    background: white;
     width: 80vw;
     height: auto;
     position: absolute;
@@ -78,17 +78,23 @@ main {
     text-align: center;
     margin: 10px 0px -40px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.524);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.707);
     font-size: 22px;
 } 
 
 details {
-    width: 80vw;
+    width: 60vw;
     color: rgb(0, 0, 0);
     font-weight: 100;
     border-radius: 6px;
-    font-size: 22px;
-    margin-top: 300px;
+    font-size: 20px;
+    margin-top: 450px;
+}
+
+details:hover {
+    background: rgb(241, 241, 241);
+    transition: 4s;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 0px;
 }
 
 #all-names {
@@ -100,9 +106,8 @@ details {
     flex-direction: column;
     align-items: flex-start;
     padding: 40px;
-    line-height: 40px;
+    line-height: 50px;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.33) 2px 4px 2px 1px;
     text-shadow: none;
     color: #000;
     z-index: 1;
@@ -269,7 +274,7 @@ section {
     }
 
     .containerH1 h1{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
     }
 
@@ -305,9 +310,10 @@ section {
         margin: 4px; 
         font-size: 12px !important;
     }
-    
+
+
     .containerH1 h1{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
     }
 
