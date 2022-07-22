@@ -4,16 +4,15 @@ function ocutarBotoes(){
     let btn_Qtd = document.querySelector('.btn-Qtd')
     let btn_save = document.querySelector('.btn-save')
     let btn_clean = document.querySelector('.btn-clean')
-    /* btn_Qtd.remove() */
+    btn_Qtd.remove()
     btn_clean.remove()
-    /* btn_go.remove() */
+    btn_go.remove()
     btn_save.remove()
-}
-setInterval(function efeitoToogle() {
-    let txtYouWin = document.querySelector('.div')
-    txtYouWin.classList.toggle('tranform-scale')
-},400)
 
+    let divQtd = document.getElementById('div')
+    divQtd.classList.toggle('div')
+    divQtd.innerText = `NUMEROS CONCORRENDO ATÉ O MOMENTO: (${array_names.length})`
+}
 
 let array_names = [
 
@@ -194,6 +193,11 @@ function sorteio() {
     let yesNo = confirm('O sorteio será iniciado, ok?')
     
     if(yesNo) {
+        setInterval(function efeitoToogle() {
+            let txtYouWin = document.querySelector('.div')
+            txtYouWin.classList.toggle('tranform-scale')
+        },400)
+
         let btn_Qtd = document.querySelector('.btn-Qtd')
         const more = document.getElementById('More')
 
