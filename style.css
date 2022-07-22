@@ -67,11 +67,11 @@ main {
     position: absolute;
     border-radius: 8px;
     color: #000 !important;
-    font-size: 24px !important;
+    font-size: 26px !important;
     padding: 0px 80px;
     line-height: 40px;
     font-weight: 200;
-    margin-top: -70px;
+    /* margin-top: -70px; */
 }
 
 .containerH1 {
@@ -89,6 +89,7 @@ details {
     border-radius: 6px;
     font-size: 22px;
 }
+
 #all-names {
     position: relative;
     background: white;
@@ -107,7 +108,10 @@ details {
 }
 
 details:hover {
+    transition: 0.1s;
     cursor: pointer;
+    transform: scale(1.02);
+    color: rgba(0, 0, 255, 0.764);
 }
 
 section {
@@ -140,6 +144,12 @@ section {
     margin:  4px;
 }
 
+.tranform-scale {
+    transform: scale(1.1);
+    color: red !important;
+    font-weight: bold !important;
+}
+
 .btn-Qtd {
     flex: 1 0 0 ;
     height: 57px;
@@ -155,7 +165,7 @@ section {
     font-weight: 600;
     width: 100% !important;
     padding: 20px;
-    margin:  4px;
+    margin:  4px 0px 10px 0px;
 }
 
 .btn-clean {
