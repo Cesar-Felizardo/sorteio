@@ -100,7 +100,7 @@ let array_names = [
 
     `Alberto (84)`,
 
-    `Bruno (Leroy) (15)`,
+    `Bruno (Leroy) (86)`,
 
     `Gleydson (15)`,
 
