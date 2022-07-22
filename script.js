@@ -104,7 +104,7 @@ let array_names = [
 
     `Gleydson (15)`,
 
-    `Jean (67)`
+    `Jean (67)`,
     
     `Wanderlan (44)`,
 
