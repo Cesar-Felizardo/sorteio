@@ -71,7 +71,7 @@ main {
     padding: 0px 80px;
     line-height: 40px;
     font-weight: 200;
-    /* margin-top: -70px; */
+    margin-top: 80px;
 }
 
 .containerH1 {
@@ -88,7 +88,7 @@ details {
     font-weight: 100;
     border-radius: 6px;
     font-size: 22px;
-    margin-top: 80px;
+    margin-top: 300px;
 }
 
 #all-names {
@@ -305,8 +305,7 @@ section {
         margin: 4px; 
         font-size: 12px !important;
     }
-
-
+    
     .containerH1 h1{
         font-size: 20px;
         font-weight: bold;
