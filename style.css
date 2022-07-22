@@ -88,6 +88,7 @@ details {
     font-weight: 100;
     border-radius: 6px;
     font-size: 22px;
+    margin-top: 80px;
 }
 
 #all-names {
@@ -147,7 +148,6 @@ section {
 .tranform-scale {
     transform: scale(1.1);
     color: red !important;
-    font-weight: bold !important;
 }
 
 .btn-Qtd {
