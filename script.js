@@ -111,6 +111,12 @@ let array_names = [
     `Pedro Lucas (151)`,
 
     `Mirek Tales (132)`
+    
+    `Henrique (43`,
+
+    `Alex (Leroy) (71`,
+        
+    `Natália (19)`
     ]
 
     let now = new Date
