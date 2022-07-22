@@ -105,6 +105,10 @@ let array_names = [
     `Gleydson (15)`,
 
     `Jean (67)`
+    
+    `Wanderlan (44)`,
+
+    `Pedro Lucas (151)`
     ]
 
     let now = new Date
