@@ -11,7 +11,7 @@ function ocutarBotoes(){
 
     let divQtd = document.getElementById('div')
     divQtd.classList.toggle('div')
-    divQtd.innerText = `NUMEROS CONCORRENDO ATÉ O MOMENTO: (${array_names.length})`
+    divQtd.innerText = `NUMERO DE PARTICIPANTES ATÉ O MOMENTO: (${array_names.length})`
 }
 
 let array_names = [
