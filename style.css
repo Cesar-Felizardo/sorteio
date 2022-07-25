@@ -345,6 +345,10 @@ section {
     main {
         
     }
+    
+    #live {
+        padding-bottom: 1px;
+    }
 
     details {
         width: 80vw;
