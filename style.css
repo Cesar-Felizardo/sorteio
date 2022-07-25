@@ -24,6 +24,51 @@ header {
     width: 89vw;
 }
 
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 30px;
+    font-size: 18px;
+    color: #000;
+}
+
+.live {
+    display: flex;
+    background: rgb(17, 179, 6);
+    border-radius: 60px;
+    font-size: 8px;
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+
+#live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    display: flex;
+    left: 160px;
+    border-radius: 60px;
+    width: 52px;
+    height: 14px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+#liveP {
+    transition: 0.6s;
+}
+
+.liveColor {
+    color: white;
+}
+
 #contRegress {
     position: absolute;
     display: flex;
@@ -67,18 +112,18 @@ main {
     position: absolute;
     border-radius: 8px;
     color: #000 !important;
-    font-size: 26px !important;
+    font-size: 24px !important;
     padding: 0px 80px;
     line-height: 40px;
     font-weight: 200;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .containerH1 {
     text-align: center;
     margin: 10px 0px -40px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.707);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.303);
     font-size: 22px;
     padding-top: 20px;
 } 
@@ -89,12 +134,13 @@ details {
     font-weight: 100;
     border-radius: 6px;
     font-size: 20px;
-    margin-top: 450px;
+    margin-top: 420px;
+    cursor: pointer;
 }
 
 details:hover {
-    background: rgb(241, 241, 241);
-    transition: 4s;
+    background: rgb(198, 199, 203);
+    transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 0px;
 }
 
@@ -110,17 +156,22 @@ details:hover {
     line-height: 50px;
     z-index: 1;
     text-shadow: none;
-    color: #000;
+    color: rgb(8, 17, 74);
     z-index: 1;
 }
 
-details:hover {
-    transition: 0.1s;
+li a {
     cursor: pointer;
-    transform: scale(1.02);
-    color: rgba(0, 0, 255, 0.764);
 }
 
+li a:hover {
+    cursor: pointer;
+    color: blue;
+    background: rgb(198, 199, 203);
+    padding: 8px;
+    border-radius: 6px;
+    transition: 0.1s;
+}
 section {
     display: flex;
     justify-content: center;
