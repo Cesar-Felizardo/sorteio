@@ -1,5 +1,62 @@
-window.addEventListener('load', ocutarBotoes)
-function ocutarBotoes(){
+window.addEventListener('load', timeBotoesLive)
+
+function timeBotoesLive(){
+    let now = new Date
+    let month = now.getMonth()
+    let day = now.getDay()+24
+
+    if(day > 31) {
+        month += 1
+        day = 1
+    }
+    switch  (month) {
+        case 1-1:
+            month = 'Janeiro'
+            break
+        case 2-1:
+            month = 'Fevereiro'
+            break
+        case 3-1:
+            month = 'Março'
+            break
+        case 4-1:
+            month = 'Abril'
+            break
+        case 5-1:
+            month = 'Maio'
+            break
+        case 6-1:
+            month = 'Junho'
+            break
+        case 7-1:
+            month = 'Julho'
+            break
+        case 8-1:
+            month = 'Agosto'
+            break
+        case 9-1:
+            month = 'Setembro'
+            break
+        case 10-1:
+            month = 'Outubro'
+            break
+        case 11-1:
+            month = 'Novembro'
+            break
+        case 12-1:
+            month = 'Dezembro'
+            break
+    }
+    let time = document.querySelector(".time")
+    time.innerHTML = ` ${day} de ${month} de ${now.getFullYear()}`
+
+    setInterval(function() {
+        let onLine_offLine = document.querySelector("#live")
+        let liveP = document.querySelector("#liveP")
+        onLine_offLine.classList.toggle("live")
+        liveP.classList.toggle("liveColor")
+    }, 800)
+
     let btn_go = document.querySelector('.btn-go')
     let btn_Qtd = document.querySelector('.btn-Qtd')
     let btn_save = document.querySelector('.btn-save')
@@ -106,7 +163,7 @@ let array_names = [
 
     `Gleydson (15)`,
 
-    `Jean (67)`,
+    `Jerian (67)`,
 
     `Wanderlan (44)`,
 
@@ -119,57 +176,9 @@ let array_names = [
     `Alex (Leroy) (71`,
         
     `Natália (19)`,
-    
-    `Lilian Mendes (45)`
+
+    `Lilian Mendes (46)`
     ]
-
-    let now = new Date
-    let month = now.getMonth()
-    let day = now.getDay()+17
-
-    if(day > 31) {
-        month += 1
-        day = 1
-    }
-switch  (month) {
-    case 1-1:
-        month = 'Janeiro'
-        break
-    case 2-1:
-        month = 'Fevereiro'
-        break
-    case 3-1:
-        month = 'Março'
-        break
-    case 4-1:
-        month = 'Abril'
-        break
-    case 5-1:
-        month = 'Maio'
-        break
-    case 6-1:
-        month = 'Junho'
-        break
-    case 7-1:
-        month = 'Julho'
-        break
-    case 8-1:
-        month = 'Agosto'
-        break
-    case 9-1:
-        month = 'Setembro'
-        break
-    case 10-1:
-        month = 'Outubro'
-        break
-    case 11-1:
-        month = 'Novembro'
-        break
-    case 12-1:
-        month = 'Dezembro'
-        break
-}
-document.write(` Data: ${day} de ${month} de ${now.getFullYear()}`)
 
 let time1 = 0
 let time2 = 200
@@ -229,17 +238,3 @@ function sorteio() {
         alert('Cancelando sorteio...')
     }
 }
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
