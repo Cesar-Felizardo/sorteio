@@ -55,7 +55,7 @@ function timeBotoesLive(){
         let liveP = document.querySelector("#liveP")
         onLine_offLine.classList.toggle("live")
         liveP.classList.toggle("liveColor")
-    }, 800)
+    },800)
 
     let btn_go = document.querySelector('.btn-go')
     let btn_Qtd = document.querySelector('.btn-Qtd')
@@ -71,7 +71,7 @@ function timeBotoesLive(){
     divQtd.innerText = `NUMERO DE PARTICIPANTES ATÉ O MOMENTO: (${array_names.length})`
 }
 
-let array_names = [
+const array_names = [
 
     `Nome: Lucineide Felizardo (126)`,
 
@@ -163,7 +163,7 @@ let array_names = [
 
     `Gleydson (15)`,
 
-    `Jerian (67)`,
+    `Jean (67)`,
 
     `Wanderlan (44)`,
 
@@ -177,7 +177,11 @@ let array_names = [
         
     `Natália (19)`,
 
-    `Lilian Mendes (46)`
+    `Lilian Mendes (46)`,
+
+    `Gustavo (Alex)(50)`,
+
+    `Luciana (Carlinhos) (113)`
     ]
 
 let time1 = 0
