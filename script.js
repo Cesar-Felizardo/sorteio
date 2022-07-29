@@ -184,7 +184,9 @@ const array_names = [
     `Luciana (Carlinhos) (113)`
     ]
 
-    array_names.push('Célia número (47)','Berg (sanitário) (72)',' Ênio (Pisos) (70)','borges(145)','Berg (Laminados) (31)','Flávia (caixas) ()',  'Edilene (caixas) (100)', 'Anderson (caixas) (38)', )
+    array_names.push('Célia número (47)','Berg (sanitário) (72)',' Ênio (Pisos) (70)',
+    'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)',
+     'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)' )
 
 let time1 = 0
 let time2 = 200
