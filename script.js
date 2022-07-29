@@ -68,7 +68,7 @@ function timeBotoesLive(){
 
     let divQtd = document.getElementById('div')
     divQtd.classList.toggle('div')
-    divQtd.innerText = `NUMERO DE PARTICIPANTES ATÉ O MOMENTO: (${array_names.length})`
+    divQtd.innerText = `PARTICIPANTES ATÉ O MOMENTO: (${array_names.length})`
 }
 
 const array_names = [
@@ -184,11 +184,12 @@ const array_names = [
     `Luciana (Carlinhos) (113)`
     ]
 
+    array_names.push('Célia número (47)','Berg (sanitário) (72)',' Ênio (Pisos) (70)','borges(145)','Berg (Laminados) (31)','Flávia (caixas) ()',  'Edilene (caixas) (100)', 'Anderson (caixas) (38)', )
+
 let time1 = 0
 let time2 = 200
 let time3 = 500
 let time4 = 1000
-
 
 function All_Names() {
     let divQtd = document.getElementById('div')
@@ -212,13 +213,6 @@ function sorteio() {
             let txtYouWin = document.querySelector('.div')
             txtYouWin.classList.toggle('tranform-scale')
         },400)
-
-        let btn_Qtd = document.querySelector('.btn-Qtd')
-        const more = document.getElementById('More')
-
-        more.remove()
-        btn_Qtd.remove()
-        btn_go.remove()
 
         let init = 11  
         setInterval(function count() {
