@@ -200,7 +200,7 @@ function sorteio() {
     let yesNo = confirm('O sorteio será iniciado, ok?')
     
     if(yesNo) {
-        
+        document.getElementById('More').style.display = 'none'
         setInterval(function efeitoToogle() {
             let txtYouWin = document.querySelector('.div')
             txtYouWin.classList.toggle('tranform-scale')
