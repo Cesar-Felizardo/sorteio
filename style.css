@@ -19,7 +19,7 @@ header {
     text-emphasis: center !important;
     color: rgb(43, 173, 169);
     font-size: 26px;
-    width: 89vw;
+    width: 89vw; 
 }
 
 .time {
@@ -63,7 +63,7 @@ header {
     align-items: center;
     width: 100%;
     height: 50px;
-    top: 50%;
+    top: 44%;
     z-index: -1;
     color: rgb(0, 0, 0);
     font-size: 22px;
@@ -111,7 +111,7 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.303);
     font-size: 22px;
-    padding-top: 20px;
+    padding-top: -20px;
 } 
 
 details {
@@ -144,6 +144,10 @@ details:hover {
     text-shadow: none;
     color: rgb(8, 17, 74);
     z-index: 1;
+}
+
+ol li a {
+    font-weight: bold;
 }
 
 li a {
@@ -246,7 +250,6 @@ section {
     width: 100% !important;
     padding: 20px;
     margin:  4px;
-    display: none;
 }
 
 .btn-go:hover {
