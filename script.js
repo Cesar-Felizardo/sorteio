@@ -1,4 +1,5 @@
-window.addEventListener('load', timeBotoesLive)
+window.addEventListener('load', timeBotoesLive) /* All_Names */
+window.addEventListener('load', All_Names)
 
 function timeBotoesLive(){
     let now = new Date
@@ -56,64 +57,51 @@ function timeBotoesLive(){
         onLine_offLine.classList.toggle("live")
         liveP.classList.toggle("liveColor")
     },800)
-
-    let btn_go = document.querySelector('.btn-go')
-    let btn_Qtd = document.querySelector('.btn-Qtd')
-    let btn_save = document.querySelector('.btn-save')
-    let btn_clean = document.querySelector('.btn-clean')
-    btn_Qtd.remove()
-    btn_clean.remove()
-    btn_go.remove()
-    btn_save.remove()
-
-    let divQtd = document.getElementById('div')
-    divQtd.classList.toggle('div')
-    divQtd.innerText = `PARTICIPANTES ATÉ O MOMENTO: (${array_names.length})`
 }
 
 const array_names = [
 
-    `Nome: Lucineide Felizardo (126)`,
+    `Lucineide Felizardo (126)`,
 
-    `Nome: Barbara (23)`, 
+    `Barbara (23)`, 
     
-    `Nome: Barbara (04)`,
+    `Barbara (04)`,
     
-    `Nome: Barbara (28)`,
+    `Barbara (28)`,
     
-    `Nome: Barbara (14)`,
+    `Barbara (14)`,
 
-    `Nome: Barbara (29)`,
+    `Barbara (29)`,
 
-    `Nome: Thalles (08)`,
+    `Thalles (08)`,
     
-    `Nome: Thalles, (17)`,
+    `Thalles, (17)`,
 
-    `Nome: Luana(30)`,
+    `Luana(30)`,
 
-    `Nome: Judivan(13)`,
+    `Judivan(13)`,
 
-    `Nome: Isac (33)`,
+    `Isac (33)`,
 
-    `Nome: Isael (05)`,
+    `Isael (05)`,
 
-    `Nome: Debora (74)`,
+    `Debora (74)`,
 
-    `Nome: Luan (51)`,
+    `Luan (51)`,
 
-    `Nome: Milton 101)`,
+    `Milton 101)`,
 
-    `Nome: Vanessa (78)`,
+    `Vanessa (78)`,
 
-    `Nome: Karoline(12)`,
+    `Karoline(12)`,
 
-    `Nome: Simone Brito (135)`,
+    `Simone Brito (135)`,
 
-    `Nome: Miguel (77)`,
+    `Miguel (77)`,
 
-    `Nome: Michael (07)`,
+    `Michael (07)`,
 
-    `Nome: Eliton (55)`,
+    `Eliton (55)`,
 
     `PREMIADO: (98)`,
 
@@ -184,19 +172,16 @@ const array_names = [
     `Luciana (Carlinhos) (113)`
     ]
 
-    array_names.push('Célia número (47)','Berg (sanitário) (72)',' Ênio (Pisos) (70)',
+    array_names.push('Célia número (47)','Berg (sanitário) (72)','Ênio (Pisos) (70)',
     'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)',
-     'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)','xandi sanitário (122)', 'Mira (99)' )
+     'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi sanitário (122)', 'Mira (99)')
 
-let time1 = 0
-let time2 = 200
-let time3 = 500
-let time4 = 1000
+     array_names.push('Dani (Academia) (42)','Josi (Prima) (01)','Fábio (Primo) (58)', 'Fábio (Primo) (104)', 'Aline(leroy) (106)','Vanucci (180)', 'Jackson (112)','Jefferson Daniel (150)' )
 
 function All_Names() {
     let divQtd = document.getElementById('div')
     divQtd.classList.toggle('div')
-    divQtd.innerText = `NUMEROS CONCORRENDO: ${array_names.length}`
+    divQtd.innerText = ` NÚMERO DE PATICIPANTES: ${array_names.length}`
 }
 
 function btnClean() {
@@ -207,14 +192,19 @@ function btnClean() {
 }
 
 function sorteio() {
+    let divQtd = document.getElementById('div')
+    divQtd.classList.remove('div')
+
     let btn_go = document.querySelector('.btn-go')
+    btn_go.remove()
     let yesNo = confirm('O sorteio será iniciado, ok?')
     
     if(yesNo) {
+        
         setInterval(function efeitoToogle() {
             let txtYouWin = document.querySelector('.div')
             txtYouWin.classList.toggle('tranform-scale')
-        },400)
+        }, 400)
 
         let init = 11  
         setInterval(function count() {
@@ -227,7 +217,7 @@ function sorteio() {
             contRegress.innerHTML = ''
              div.classList.add('div')
             }
-        },time4)
+        }, 1000)
 
         for(let i=0; i < array_names.length; i++) {
             let order = Math.floor(Math.random() * (i + 1))
