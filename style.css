@@ -17,7 +17,7 @@ body {
 
 header {
     text-emphasis: center !important;
-    color: rgb(43, 173, 169);
+    color: rgb(30, 139, 155);
     font-size: 26px;
     width: 89vw; 
 }
@@ -67,6 +67,7 @@ header {
     z-index: -1;
     color: rgb(0, 0, 0);
     font-size: 22px;
+    font-weight: bold;
 }
 
 main {
@@ -102,7 +103,7 @@ main {
     padding: 0px 80px;
     line-height: 40px;
     font-weight: 200;
-    margin-top: -40px;
+    margin-top: 50px;
 }
 
 .containerH1 {
