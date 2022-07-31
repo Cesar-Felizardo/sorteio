@@ -4,7 +4,7 @@ window.addEventListener('load', All_Names)
 function timeBotoesLive(){
     let now = new Date
     let month = now.getMonth()
-    let day = now.getDay()+24
+    let day = now.getDay()+31
 
     if(day > 31) {
         month += 1
