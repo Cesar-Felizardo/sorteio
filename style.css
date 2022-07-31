@@ -117,7 +117,7 @@ main {
 } 
 
 details {
-    width: 60vw;
+    width: 70vw;
     color: rgb(0, 0, 0);
     font-weight: 100;
     border-radius: 6px;
@@ -175,7 +175,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
+    padding: 0px 2px;
 }
 
 .containerBtn {
@@ -195,7 +195,7 @@ section {
     transition: all 0.5s;
     color: white;
     font-weight: 600;
-    width: 100% !important;
+    width: 100%;
     padding: 20px;
     margin:  4px;
 }
