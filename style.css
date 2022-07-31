@@ -44,7 +44,7 @@ header {
     height: 14px;
     padding-bottom: 4px;
     font-size: 12px;
-    color: rgb(48, 152, 0);
+    color: rgba(176, 45, 45, 0.467);
     transition: 0.5s;
 }
 
@@ -53,7 +53,8 @@ header {
 }
 
 .liveColor {
-    color: rgb(228, 228, 228);
+    font-weight: bold;
+    color: rgb(48, 152, 0);
 }
 
 #contRegress {
@@ -101,18 +102,19 @@ main {
     color: #000 !important;
     font-size: 22px !important;
     padding: 0px 80px;
-    line-height: 40px;
+    /* line-height: 40px; */
     font-weight: 200;
-    margin-top: 50px;
+    /* margin-top: 50px */;
 }
 
 .containerH1 {
     text-align: center;
-    margin: 10px 0px -40px 0px;
+    margin: 10px 0px -50px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.303);
     font-size: 22px;
-    padding-top: -20px;
+    /* padding-top: -20px; */
+    background: blue;
 } 
 
 details {
