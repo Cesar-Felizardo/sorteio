@@ -197,9 +197,9 @@ function sorteio() {
 
     let btn_go = document.querySelector('.btn-go')
     btn_go.remove()
-    let yesNo = confirm('O sorteio será iniciado, ok?')
+    /* let yesNo = confirm('O sorteio será iniciado, ok?') */
     
-    if(yesNo) {
+    /* if(yesNo) { */
         document.getElementById('More').style.display = 'none'
         setInterval(function efeitoToogle() {
             let txtYouWin = document.querySelector('.div')
@@ -223,8 +223,8 @@ function sorteio() {
             let order = Math.floor(Math.random() * (i + 1))
             div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order]}`
         }
-    } 
+    /* } 
     else {
         alert('Cancelando sorteio...')
-    }
+    } */
 }
