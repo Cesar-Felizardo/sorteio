@@ -7,7 +7,7 @@ function timeBotoesLive(){
     let day = now.getDay()+31
 
     if(day > 31) {
-        month += 1
+        month
         day = 1
     }
     switch  (month) {
