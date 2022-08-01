@@ -185,10 +185,10 @@ function All_Names() {
 }
 
 function btnClean() {
-    let yesNo_clean = confirm('Tem certeza que deseja limpar?')
-    if(yesNo_clean) {
+    /* let yesNo_clean = confirm('Tem certeza que deseja limpar?')
+    if(yesNo_clean) { */
         location.reload()
-    }
+    /* } */
 }
 
 function sorteio() {
