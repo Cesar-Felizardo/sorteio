@@ -104,7 +104,7 @@ main {
     padding: 0px 80px;
     /* line-height: 40px; */
     font-weight: 200;
-    /* margin-top: 50px */;
+    margin-top: -80px;
 }
 
 .containerH1 {
@@ -172,14 +172,15 @@ ul li a:hover {
 
 section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0px 2px;
 }
 
 .containerBtn {
-    width: 80%;
+    width: 50%;
+/*     margin-top: 0px; */
 }
 
 .btn-go {
@@ -205,7 +206,7 @@ section {
     color: red !important;
 }
 
-.btn-Qtd {
+/* .btn-Qtd {
     flex: 1 0 0 ;
     height: 57px;
     background: rgb(55, 226, 69);
@@ -221,12 +222,12 @@ section {
     width: 100% !important;
     padding: 20px;
     margin:  4px 0px 10px 0px;
-}
+} */
 
 .btn-clean {
     flex: 1 0 0 ;
     height: auto;
-    background: rgb(231, 31, 31);
+    background: rgb(218, 68, 68);
     border-radius: 5px;
     outline: none;
     cursor: pointer;
