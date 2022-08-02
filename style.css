@@ -16,11 +16,11 @@ body {
     background-position: center;
     /* background: white; */
     z-index: -1;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .paddingToogle {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 header {
