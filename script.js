@@ -175,7 +175,7 @@ const array_names = [
 
     array_names.push('Célia número (47)','Berg (sanitário) (72)','Ênio (Pisos) (70)',
     'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)',
-    'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi (sanitário) (122)', 'Mira (99)')
+    'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi sanitário (122)', 'Mira (99)')
 
      array_names.push('Dani (Academia) (42)','Josi (Prima) (01)','Fábio (Primo) (58)', 'Fábio (Primo) (104)', 'Aline(leroy) (106)','Vanucci (180)', 'Jackson (112)','Jefferson Daniel (150)','Laércio (102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP)(21)','Jefferson Daniel (150)','Helio elétrica (36)',' Paula (sac) (140)','Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)')
 
@@ -203,6 +203,8 @@ function sorteio() {
     /* let yesNo = confirm('O sorteio será iniciado, ok?') */
     
     /* if(yesNo) { */
+        const body = document.querySelector("body")
+        body.classList.add('paddingToogle')
         document.getElementById('More').style.display = 'none'
         setInterval(function efeitoToogle() {
             let txtYouWin = document.querySelector('.div')
