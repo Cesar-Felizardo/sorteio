@@ -25,7 +25,8 @@ body {
 
 header {
     text-emphasis: center !important;
-    color: rgb(29, 193, 218);
+    color: rgb(74, 137, 232);
+    /* color: rgb(29, 193, 218); */
     font-size: 26px;
     width: 89vw; 
     z-index: 1;
