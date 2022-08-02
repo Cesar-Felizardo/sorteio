@@ -13,7 +13,7 @@ body {
     background-image: url('baby-elementson-light-blue-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     /* background: white; */
     z-index: -1;
     padding-bottom: 50px;
@@ -211,7 +211,7 @@ section {
 .btn-go {
     flex: 1 0 0 ;
     height: auto;
-    background: rgb(37, 112, 224);
+    background: rgb(74, 137, 232);
     border-radius: 5px;
     outline: none;
     cursor: pointer;
@@ -230,24 +230,6 @@ section {
     transform: scale(1.1);
     color: red !important;
 }
-
-/* .btn-Qtd {
-    flex: 1 0 0 ;
-    height: 57px;
-    background: rgb(55, 226, 69);
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.177);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.331);
-    text-shadow: rgba(0, 0, 0, 0.444) 1px 1px 1px;
-    transition: all 0.5s;
-    color: white;
-    font-weight: 600;
-    width: 100% !important;
-    padding: 20px;
-    margin:  4px 0px 10px 0px;
-} */
 
 .btn-clean {
     flex: 1 0 0 ;
@@ -269,7 +251,7 @@ section {
 
 .btn-save {
     flex: 1 0 0 ;
-    background: rgb(0, 139, 111);
+    background: rgb(161, 170, 177);
     height: auto;
     border-radius: 5px;
     outline: none;
@@ -286,7 +268,7 @@ section {
 }
 
 .btn-go:hover {
-    background: rgb(70, 131, 222);
+    background: rgb(57, 112, 194);
     color: white;
     border-radius: 6px;
     transition: all 0.5s;
@@ -301,7 +283,7 @@ section {
 }
 
 .btn-save:hover {
-    background: rgb(0, 102, 102);
+    background: rgb(128, 140, 148);
 }
 
 #number-result {
