@@ -1,12 +1,10 @@
 
-
 * {
     margin:  auto;
     padding: 0;
     letter-spacing: 2px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    
 }
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
@@ -21,13 +19,9 @@ body {
     padding-bottom: 50px;
 }
 
-/* .backgorund-opacity {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.335);
-    z-index: -1;
-} */
+.paddingToogle {
+    padding-bottom: 80px;
+}
 
 header {
     text-emphasis: center !important;
@@ -46,6 +40,7 @@ header {
     color: rgb(255, 255, 255);
     font-weight: 100;
     text-shadow: rgba(0, 0, 0, 0.444) 1px 1px 1px;
+    font-weight: bold;
 }
 
 #live {
@@ -63,6 +58,7 @@ header {
     font-size: 12px;
     color: rgba(176, 45, 45, 0.467);
     transition: 0.5s;
+    font-weight: bold;
 }
 
 #liveP {
@@ -72,6 +68,7 @@ header {
 .liveColor {
     font-weight: bold;
     color: rgb(48, 152, 0);
+    font-weight: bold;
 }
 
 #contRegress {
@@ -102,7 +99,6 @@ main {
     text-align: center;
     background: transparent;
     z-index: -1;
-    
 }
 
 #div {
@@ -110,6 +106,7 @@ main {
     width: auto !important;
     display: none;
     z-index: -1;
+    font-weight: bold;
 }
 
 .div {
@@ -142,7 +139,7 @@ main {
 } 
 
 details {
-    color: rgb(255, 255, 255);
+    color: white;
     text-shadow: rgba(0, 0, 0, 0.615) 1px 1px 1px;
     
     width: 80vw;
