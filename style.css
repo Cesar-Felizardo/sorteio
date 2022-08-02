@@ -12,16 +12,28 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 body {
-    
-    background: white;
+    background-image: url('../SORTEIO/imgSorteio/baby-elementson-light-blue-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: white; */
     z-index: -1;
 }
 
+/* .backgorund-opacity {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.335);
+    z-index: -1;
+} */
+
 header {
     text-emphasis: center !important;
-    color: rgb(30, 139, 155);
+    color: rgb(29, 193, 218);
     font-size: 26px;
     width: 89vw; 
+    z-index: 1;
 }
 
 .time {
@@ -30,7 +42,9 @@ header {
     align-items: center;
     height: 30px;
     font-size: 18px;
-    color: #000;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    text-shadow: rgba(0, 0, 0, 0.444) 1px 1px 1px;
 }
 
 #live {
@@ -42,7 +56,7 @@ header {
     display: flex;
     left: 160px;
     border-radius: 60px;
-    width: 52px;
+    width: 56px;
     height: 14px;
     padding-bottom: 4px;
     font-size: 12px;
@@ -68,7 +82,11 @@ header {
     height: 50px;
     top: 44%;
     z-index: -1;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.502) 1px 1px 1px;
+
     font-size: 22px;
     font-weight: bold;
 }
@@ -83,6 +101,7 @@ main {
     text-align: center;
     background: transparent;
     z-index: -1;
+    
 }
 
 #div {
@@ -96,12 +115,15 @@ main {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    background: white;
     width: 80vw;
     height: auto;
     position: absolute;
     border-radius: 8px;
-    color: #000 !important;
+    /* color: #000 !important; */
+
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.608) 1px 1px 1px;
+    
     font-size: 22px !important;
     padding: 0px 80px;
     /* line-height: 40px; */
@@ -113,14 +135,17 @@ main {
     text-align: center;
     margin: 10px 0px -50px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.303);
+    text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.43);
     font-size: 22px;
     /* padding-top: -20px; */
 } 
 
 details {
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.615) 1px 1px 1px;
+    
     width: 80vw;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     font-weight: 100;
     border-radius: 6px;
     font-size: 20px;
