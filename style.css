@@ -13,7 +13,7 @@ body {
     background-image: url('baby-elementson-light-blue-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     /* background: white; */
     z-index: -1;
     padding-bottom: 30px;
@@ -142,18 +142,15 @@ main {
 details {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.615) 1px 1px 1px;
-    
     width: 80vw;
-    /* color: rgb(0, 0, 0); */
     font-weight: 100;
     border-radius: 6px;
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 200px;
     cursor: pointer;
 }
 
 details:hover {
-    background: rgb(198, 199, 203);
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 0px;
 }
