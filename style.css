@@ -32,6 +32,10 @@ header {
     z-index: 1;
 }
 
+span {
+    color: rgb(4, 170, 4);
+}
+
 .time {
     display: flex;
     justify-content: center;
