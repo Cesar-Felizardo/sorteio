@@ -370,7 +370,8 @@ section {
     .background-screen {
         width: 100vw;
         height: 100vh;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374) 50%, transparent);
+        background: rgba(0, 0, 0, 0.374) ;
+        /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374) 50%, transparent);*/
         z-index: -1;
         position: absolute;
     }
