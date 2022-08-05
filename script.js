@@ -229,7 +229,7 @@ function sorteio() {
 
         for(let i=0; i < array_names.length; i++) {
             let order = Math.floor(Math.random() * (i + 1))
-            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${/* array_names[order] */array_names[89]}`
+            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order]}`
         }
     /* } 
     else {
