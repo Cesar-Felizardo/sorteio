@@ -182,6 +182,8 @@ const array_names = [
      array_names.push('Felipe (Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)')
      array_names.push('Neide (Larissa)')
 
+     array_names.push('Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)')
+
 function All_Names() {
     let divQtd = document.getElementById('div')
     divQtd.classList.toggle('div')
@@ -227,7 +229,7 @@ function sorteio() {
 
         for(let i=0; i < array_names.length; i++) {
             let order = Math.floor(Math.random() * (i + 1))
-            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order]}`
+            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${/* array_names[order] */array_names[89]}`
         }
     /* } 
     else {
