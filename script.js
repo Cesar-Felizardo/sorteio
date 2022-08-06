@@ -174,15 +174,7 @@ const array_names = [
     ]
 
     array_names.push('Célia número (47)','Berg (sanitário) (72)','Ênio (Pisos) (70)',
-    'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)',
-    'Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi sanitário (122)', 'Mira (99)')
-
-     array_names.push('Dani (Academia) (42)','Josi (Prima) (01)','Fábio (Primo) (58)', 'Fábio (Primo) (104)', 'Aline(leroy) (106)','Vanucci (180)', 'Jackson (112)','Jefferson Daniel (150)','Laércio (102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP)(21)','Jefferson Daniel (150)','Helio elétrica (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)')
-
-     array_names.push('Felipe (Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)')
-     array_names.push('Neide (Larissa)','Mirian (Zezinho) (90)', '')
-
-     array_names.push('Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (46)')
+    'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)','Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi sanitário (122)', 'Mira (99)', 'Dani (Academia) (42)','Josi (Prima) (01)','Fábio (Primo) (58)', 'Fábio (Primo) (104)', 'Aline(leroy) (106)','Vanucci (180)', 'Jackson (112)','Jefferson Daniel (150)','Laércio (102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP)(21)','Jefferson Daniel (150)','Helio elétrica (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)', 'Felipe (Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)','Neide (Larissa)','Mirian (Zezinho) (90)','Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (46)', 'Luiz Paiva (147)')
 
 function All_Names() {
     let divQtd = document.getElementById('div')
@@ -229,7 +221,7 @@ function sorteio() {
 
         for(let i=0; i < array_names.length; i++) {
             let order = Math.floor(Math.random() * (i + 1))
-            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order]}`
+            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order] }`
         }
     /* } 
     else {
