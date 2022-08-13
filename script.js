@@ -62,7 +62,7 @@ function timeBotoesLive(){
 
 const array_names = [
 
-    `Lucineide Felizardo (126)`,
+    `Lucineide Felizardo (57)`,
 
     `Barbara (23)`, 
     
@@ -74,9 +74,9 @@ const array_names = [
 
     `Barbara (29)`,
 
-    `Thalles (08)`,
+    `Thalles (Leroy) (08)`,
     
-    `Thalles (17)`,
+    `Thalles (Leroy) (17)`,
 
     `Luana Pamela (30)`,
 
@@ -86,47 +86,47 @@ const array_names = [
 
     `Isael (05)`,
 
-    `Debora (74)`,
+    `Debora (Corrêa) (74)`,
 
-    `Luan (51)`,
+    `Luan (Leroy) (51)`,
 
-    `Milton (101)`,
+    `Milton (Leroy) (101)`,
 
-    `Vanessa (78)`,
+    `Vanessa Honório(78)`,
 
-    `Karoline (12)`,
+    `Karoline (Leroy) (12)`,
 
-    `Simone Brito (135)`,
+    `Simone Brito (SP) (135)`,
 
     `Miguel (77)`,
 
     `Michael (07)`,
 
-    `Eliton (55)`,
+    `Eliton (Leroy) (55)`,
 
-    `Rogério (98)`,
+    `Rogério (Leroy) (98)`,
 
-    `Paty (27)`,
+    `Paty (MMP) (27)`,
     
     `Patrícia Docol (11)`,
     `
-    Jadeilson (22)`,
+    Jadeilson (Bosque) (22)`,
     
-    `Kaio (37)`,
+    `Kaio (Leroy) (37)`,
     
     `Altair F. (179)`, 
     
     `Valéria (20)`,
 
-    `Luciano (06)`,
+    `Luciano (Leroy) (06)`,
 
     `Isadora (26)`,
 
-    `Jhonatan (32)`,
+    `Jhonatan (Leroy) (32)`,
 
     `Dikó (63)`,
 
-    `Eduardo (48)`,
+    `Eduardo (Lucia) (48)`,
 
     `Daiane (177)`,
 
@@ -174,7 +174,7 @@ const array_names = [
     ]
 
     array_names.push('Célia (Leroy) (47)','Berg (sanitário) (72)','Ênio (pisos) (70)',
-    'Borges (Leroy) (145)','Berg (laminados) (31)','Flávia (caixa) (56)', 'Edilene (caixa) (100)','Anderson (caixa) (38)', 'Marcelo (sanitário) (18)', 'Elaine (sanitário) (86)', 'Xandi (sanitário) (122)', 'Mira (Leroy) (99)', 'Dani (Academia) (42)','Josi Fonseca (01)','Fábio Araujo (58)', 'Fábio Araujo (104)', 'Aline (leroy) (106)','Vanucci (Leroy) (180)', 'Jackson (Leroy) (112)','Jefferson Daniel (Leroy) (150)','Laércio (Leroy)(102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP) (21)','Jefferson Daniel (Leroy) (150)','Helio (elétrica) (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)', 'Felipe (Min.Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)','Neide (V. Mirian) (134)','Mirian (Zezinho) (90)','Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (Leroy) (46)', 'Luiz Paiva (147)', 'Cleone (Mirante) (59)', 'Danilo Ap. (88)','Wladimir (pisos) (105)', 'Neto (pisos) (73)', 'Rita (G.O MMP) (76)', 'Michael (176)', 'Michael (178)', 'Jair (terço dos homens) (54)', 'Renilson (130)', 'Luciene Oliveira (127)', 'Hilze (125)','Maria (Kevin) (80)', 'Sueli Amaral (SP) (110)', 'Sueli Amaral (SP) (xxxxxxxxxxx)', 'Gilson (Gerente) (120)', 'Felipe (Leroy) (24)', 'Mariana (pisos) (60)')
+    'Borges (Leroy) (145)','Berg (laminados) (31)','Flávia (caixa) (56)', 'Edilene (caixa) (100)','Anderson (caixa) (38)', 'Marcelo (sanitário) (18)', 'Elaine (sanitário) (96)', 'Xandi (sanitário) (122)', 'Mira (Leroy) (99)', 'Dani (Academia) (42)','Josi Fonseca (01)','Fábio (primo) (58)', 'Fábio (primo) (104)', 'Aline (leroy) (106)','Vanucci (Leroy) (180)', 'Jackson (Leroy) (112)','Laércio (Leroy)(102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP) (21)','Jefferson Daniel (Leroy) (150)','Helio (elétrica) (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (64)','Lidiane Vaz (129)', 'Felipe (Min.Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)','Neide (V. Mirian) (134)','Mirian (Zezinho) (90)','Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (Leroy) (53)', 'Luiz Paiva (147)', 'Cleone (Mirante) (59)', 'Danilo Ap. (88)','Wladimir (pisos) (105)', 'Neto (pisos) (73)', 'Rita (G.O MMP) (76)', 'Michael (176)', 'Michael (178)', 'Jair (terço dos homens) (54)', 'Renilson (130)', 'Luciene Oliveira (127)', 'Hilze (125)','Maria (Kevin) (80)', 'Sueli Amaral (SP) (110)', 'Sueli Amaral (SP) (118)', 'Gilson (Gerente) (120)', 'Felipe (Leroy) (24)', 'Mariana (pisos) (60)', 'Paulo Santi (136)', 'Flavio (tintas) (03)', 'Nana (Esmair) (89)', 'Nana (Esmair) (75)')
 
 function All_Names() {
     let divQtd = document.getElementById('div')
@@ -221,7 +221,7 @@ function sorteio() {
 
         for(let i=0; i < array_names.length; i++) {
             let order = Math.floor(Math.random() * (i + 1))
-            div.innerHTML = `PARABÉNS, VOCÊ FOI SORTEADO(A)!! <br> ${array_names[order] }`
+            div.innerHTML = `PARABÉNS!! <br> ${array_names[order] }`
         }
     /* } 
     else {
