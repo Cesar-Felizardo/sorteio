@@ -5,7 +5,7 @@ window.addEventListener('load', All_Names)
 function timeBotoesLive(){
     let now = new Date
     let month = now.getMonth()
-    let day = now.getDay()
+    let day = now.getDay()+7
 
     if(day > 31) {
         month
@@ -76,11 +76,11 @@ const array_names = [
 
     `Thalles (08)`,
     
-    `Thalles, (17)`,
+    `Thalles (17)`,
 
-    `Luana(30)`,
+    `Luana Pamela (30)`,
 
-    `Judivan(13)`,
+    `Judivan (13)`,
 
     `Isac (33)`,
 
@@ -90,11 +90,11 @@ const array_names = [
 
     `Luan (51)`,
 
-    `Milton 101)`,
+    `Milton (101)`,
 
     `Vanessa (78)`,
 
-    `Karoline(12)`,
+    `Karoline (12)`,
 
     `Simone Brito (135)`,
 
@@ -104,7 +104,7 @@ const array_names = [
 
     `Eliton (55)`,
 
-    `PREMIADO: (98)`,
+    `Rogério (98)`,
 
     `Paty (27)`,
     
@@ -114,7 +114,7 @@ const array_names = [
     
     `Kaio (37)`,
     
-    `Altair (Zezé) (179)`, 
+    `Altair F. (179)`, 
     
     `Valéria (20)`,
 
@@ -132,49 +132,49 @@ const array_names = [
 
     `Cristian (cerâmica) (117)`,
     
-    `Bruno (35)`,
+    `Bruno Henrique (35)`,
 
-    `Arthur (16)`,
+    `Arthur (Leroy) (16)`,
 
-    `Gilvanildo 94`,
+    `Givanildo (Leroy) (94)`,
 
-    `Alisson (02)`,
+    `Alisson (Leroy) (02)`,
 
-    `Rafael (25)`,
+    `Rafael (Leroy) (25)`,
     
     `Cida (Mariana) (45)`,
 
-    `Jefinho (09)`,
+    `Jefinho (Leroy) (09)`,
 
-    `Alberto (84)`,
+    `Alberto (Leroy) (84)`,
 
     `Bruno (Leroy) (86)`,
 
-    `Gleydson (15)`,
+    `Gleydson (Leroy) (15)`,
 
-    `Jean (67)`,
+    `Jarian (Leroy) (67)`,
 
-    `Wanderlan (44)`,
+    `Wanderlan (Leroy) (44)`,
 
-    `Pedro Lucas (151)`,
+    `Pedro Lucas (Leroy) (151)`,
 
     `Mirek Tales (132)`,
 
-    `Henrique (43)`,
+    `Henrique (cozinha) (43)`,
 
     `Alex (Leroy) (71`,
         
-    `Natália (19)`,
+    `Natália (Leroy) (19)`,
 
-    `Lilian Mendes (46)`,
+    `Lilian Mendes (MMP) (46)`,
 
-    `Gustavo (Alex)(50)`,
+    `Gustavo Alex (50)`,
 
     `Luciana (Carlinhos) (113)`
     ]
 
-    array_names.push('Célia número (47)','Berg (sanitário) (72)','Ênio (Pisos) (70)',
-    'borges(145)','Berg (Laminados) (31)','Flávia (caixas) (56)',  'Edilene (caixas) (100)','Anderson (caixas) (38)', 'Marcelo (sanitário) (18)', 'Elaine sanitário (86)', 'xandi sanitário (122)', 'Mira (99)', 'Dani (Academia) (42)','Josi (Prima) (01)','Fábio (Primo) (58)', 'Fábio (Primo) (104)', 'Aline(leroy) (106)','Vanucci (180)', 'Jackson (112)','Jefferson Daniel (150)','Laércio (102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP)(21)','Jefferson Daniel (150)','Helio elétrica (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)', 'Felipe (Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)','Neide (Larissa)','Mirian (Zezinho) (90)','Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (46)', 'Luiz Paiva (147)', 'Cleone (Mirante) (59)', 'Danilo Ap. (88)','Wladimir (pisos) (105)', 'Neto (73)', 'Rita (G.O MMP) (76)', 'Michael (176)', 'Michael (178)')
+    array_names.push('Célia (Leroy) (47)','Berg (sanitário) (72)','Ênio (pisos) (70)',
+    'Borges (Leroy) (145)','Berg (laminados) (31)','Flávia (caixa) (56)', 'Edilene (caixa) (100)','Anderson (caixa) (38)', 'Marcelo (sanitário) (18)', 'Elaine (sanitário) (86)', 'Xandi (sanitário) (122)', 'Mira (Leroy) (99)', 'Dani (Academia) (42)','Josi Fonseca (01)','Fábio Araujo (58)', 'Fábio Araujo (104)', 'Aline (leroy) (106)','Vanucci (Leroy) (180)', 'Jackson (Leroy) (112)','Jefferson Daniel (Leroy) (150)','Laércio (102)', 'Vania (Santa Luzia) (126)', 'Jorge (MMP) (21)','Jefferson Daniel (150)','Helio elétrica (36)',/* ' Paula (sac) (140)', */'Thiago (sac) (124)','Milene (114)', 'Nilson (encanamento) (66)', 'Michelle (Prima) (111)','Maria Helena (34)','Lidiane Vaz (129)', 'Felipe (Moriah) (83)','Sonia (casais) (68)','Lilian Vaz (34)','Neide (Larissa) (134)','Mirian (Zezinho) (90)','Daniela Fogaça (49)', 'Daniela Fogaça (39)','Luciana (Dirceu) (81)', 'Dirceu (MMP) (52)', 'José Elias (40)','Sandra Rodrigues (46)', 'Luiz Paiva (147)', 'Cleone (Mirante) (59)', 'Danilo Ap. (88)','Wladimir (pisos) (105)', 'Neto (73)', 'Rita (G.O MMP) (76)', 'Michael (176)', 'Michael (178)', 'Jair (terço dos homens) - (54)', 'Renilson (130)', 'Luciene Oliveira (127)', 'Hilze (125)','Maria (Kevin) (80)', 'Sueli Amaral (110)', 'Sueli Amaral (xxxxxxxxxxx)', 'Gilson (120)')
 
 function All_Names() {
     let divQtd = document.getElementById('div')
