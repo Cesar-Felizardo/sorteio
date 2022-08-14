@@ -17,7 +17,7 @@ body {
     background-position: center;
     /* background: white; */
     z-index: -1;
-    padding-bottom: 65px;
+    padding-bottom: 80px;
     height: 87vh;
 }
 
@@ -206,7 +206,7 @@ section {
 
 .containerBtn {
     width: 50%;
-/*     margin-top: 0px; */
+    margin-top: -10px !important;
 }
 
 .btn-go {
