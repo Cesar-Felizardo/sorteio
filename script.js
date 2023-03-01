@@ -62,7 +62,7 @@ function timeBotoesLive(){
 
 const array_names = [
 
-    `Lucineide Felizardo (57)`,
+    /* `Lucineide Felizardo (57)`,
 
     `Barbara (23)`, 
     
@@ -170,7 +170,7 @@ const array_names = [
 
     `Gustavo Alex (50)`,
 
-    `Luciana (Carlinhos) (113)`
+    `Luciana (Carlinhos) (113)` */
     ]
 
     array_names.push('Célia (Leroy) (47)','Berg (sanitário) (72)','Ênio (pisos) (70)',
